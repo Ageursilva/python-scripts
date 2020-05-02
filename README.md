@@ -6,7 +6,7 @@ esses códigos foram escritos enquanto estudava programação, qualquer um pode 
 ## Como começar?
 Antes de começar é necessário que você faça o download do python e de alguma IDE
 * [Python](https://www.python.org/downloads/) - Site oficial do Python
-* [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432/) - IDE para faciliar a visualização
+* [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432/) - IDE para facilitar a visualização
 ## Não sabe programar ?
 Se por algum motivo você chegou até esse repositório e não faz ideia sobre o que estou falando e não sabe nada sobre programação, não se preocupe, aqui tem alguns links para te ajudar :)
 * [Python Básico](https://solyd.com.br/treinamentos/python-basico) -nicie no mundo da programação rapidamente com Python, com aulas práticas e fáceis de serem acompanhadas.
