@@ -33,7 +33,8 @@ print('Ok, todos os itens foram armazenados')
 
 #Saida de dados
 
-print('Os três primeiros intens são:',itens)
-#print('Os intens do meio são:',itens(4:7))
+print('Os três primeiros intens são:',itens[0:3])
 
-#print('Os ultimos intens são:'itens(7:)))
+print('Os intens do meio são:',itens[3:6])
+
+print('Os ultimos intens são:',itens[6:])
