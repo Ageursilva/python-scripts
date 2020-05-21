@@ -8,4 +8,4 @@ Pessoa={
     'pais': 'Brasil'
 }
 
-print('Ola',Pessoa['primeiro_nome'])
+print('Ola',Pessoa['primeiro_nome' ] ,Pessoa['ultimo_nome'] )
