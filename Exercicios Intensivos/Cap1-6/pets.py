@@ -14,4 +14,4 @@ pets=[bidu,bilunga]
 
 
 for  pet in pets:
-    print(f'\nO cachoro do {pet["dono"].title()} é um {pet["raça"].title()} da cor {pet["cor"].title()} ')
+    print(f'\nO cachoro do {pet["dono"].title()}é um {pet["raça"].title()} da cor {pet["cor"].title()} ')
