@@ -6,6 +6,7 @@ def build_profile(First, Last, **User_info):
         Profile[Key] =  value
     return Profile
 
-User_Profile = build_profile('Albert', 'Einstein', Location = 'Princeton', Field = 'Physics' )
+User_Profile = build_profile('Ageu', 'Silva', Location = 'Arujá', Field = 'Science Computer',
+                                                        Football_Team = 'São Paulo', Favorite_Food = "Feijoada"  )
 
 print(User_Profile)
