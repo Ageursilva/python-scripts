@@ -13,7 +13,7 @@ class Car():
         return long_name.title()
 
     def read_odometer(self):
-        """Exibe uma frease que mostra a milhagem do carro"""
+        """Exibe uma frase que mostra a milhagem do carro"""
         print(f'This car has {str(self.odometer_reading)} miles on it')
 
     def update_odometer(self, mileage):
