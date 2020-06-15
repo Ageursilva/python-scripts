@@ -17,9 +17,11 @@ class User():
         self.user_age =  user_age
         self.user_name =  user_name
         self.user_mail =  user_mail
-
         #nome completo
         self.full_name = f'{fist_name.title()} {last_name.title()}'
+        #tentativa de llogin
+        self.login_attemps = 0
+
 
     def describe_user(self):
         """ Faz um descrição do usuario"""
@@ -33,6 +35,15 @@ class User():
     def greet_user(self):
         """Mostra saudações para o usuario"""
         print(f'\nOlá {self.user_name} seja bem vindo.')
+
+    def increment_login(self, increment_login):
+        self.login_attemps += increment_login
+        print(f'Houve {self.login_attemps} tentativas de login')
+
+    def  reset_login (self, ):
+        self.login_attemps = 0
+        print(f'Houve {self.login_attemps} ')
+
 
 
 user_ageu = User(
@@ -63,3 +74,8 @@ user_jin = User(
 
 user_jin.describe_user()
 user_jin.greet_user()
+user_jin.increment_login(2)
+user_jin.increment_login(4)
+user_jin.reset_login()
+
+
