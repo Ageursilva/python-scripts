@@ -23,9 +23,6 @@ class Restaurante():
     def increment_served(self, served_client):
         self.served_client += served_client
 
-
-restaurante = Restaurante('Calango', 'Brasileira')
-
 print(f'\nNome do restaurante: {restaurante.restaurant_name.title()}')
 print(f"Tipo de cozinha: {restaurante.cuisine_type.title()}")
 

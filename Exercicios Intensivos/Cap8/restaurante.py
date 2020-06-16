@@ -13,6 +13,25 @@ class Restaurante():
         """Mostra que o restaurante ta aberto"""
         print('\nO restaurante esta aberto')
 
+
+class IceCreamStand(Restaurante):
+    """Representa os aspectos de uma sorveteria"""
+
+    def __init_(self, restaurante_name, cuisine_type):
+      """Inicializa os atributos da classe-pai
+      Em seguida, inicializa os atributos especificos de uma sorveteria
+      """  
+      super().__init__(restaurant_name,cuisine_type = 'Soveteria')
+      #Mostras os sabores do s sorvetes
+      self.flavors = ['Baunilha', 'chocolate','Morango']
+
+      def flavors(self):
+          """ Exibe os sabores dos sorvetes"""
+          print(f'\nSabores de sorvete: ')
+          for flavor in flavors:
+              print(f'\n{flavor.title()}')
+
+
 restaurante = Restaurante('Calango', 'Brasileira')
 
 print(f'\nNome do restaurante: {restaurante.restaurant_name.title()}')
@@ -28,3 +47,5 @@ print(f"Tipo de cozinha: {your_restaurante.cuisine_type.title()}")
 
 your_restaurante.describe_restaurant()
 your_restaurante.open_restaurant()
+
+

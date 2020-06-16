@@ -30,6 +30,26 @@ class Car():
         """Soma a quantidade especifica ao valor do hodômetro"""
         self.odometer_reading += miles
 
+class Battery():
+    """""Uma tentativa de modelar uma bateria para um carro eletrico"""
+    def __init__(self, battery_size =70):
+        """"Inicializa os atriburos da bateria"""
+        self.battery_size =  battery_size
+        
+    def describe_battery(self):
+        """Exibe uma frase que descreve a capacidade da bateria"""
+        print(f"This car has a {str(self.battery_size)} -kWh baterry")
+    
+    def get_range(self):
+        """Exibe uma frase sobre a distãncia que o carro é capaz de percorrer com essa bateria"""
+        if self.battery_size == 70:
+            range = 240
+        elif self.battery_size == 85:
+            range = 270
+
+        message = f'This car can go approximately {str(range)} milles on full charge'
+        print(message)
+
 
 class EletricCar(Car):
     """Representa aspectos de um carro especifico de veiculos elétricos"""
@@ -39,13 +59,12 @@ class EletricCar(Car):
         Em seguida, inicializa os atributos de um carro elétrico
         """
         super().__init__(make, model, year)
-        self.battery_size = 70
-
-    def describe_baterry(self):
-        """Exibe uma frase que descreve a capacidade da bateria"""
-        print(f"This car has a {str(self.battery_size)} -kWh baterry")
+        self.battery =  Battery()
+   
 
 my_tesla =  EletricCar('Tesla','Model s', '2016')
+
 print(my_tesla.get_descriptive_name ())
-my_tesla.describe_baterry( )
+my_tesla.battery.describe_battery()
+my_tesla.battery.get_range()
  
