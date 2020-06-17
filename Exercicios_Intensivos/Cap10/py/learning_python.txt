@@ -1,0 +1,4 @@
+Em Pyhton definir fuções
+Em Pyhton podemos importar modulos
+Em Pyhton podemos criar jogos
+Em Pyhton podemos importar dados
