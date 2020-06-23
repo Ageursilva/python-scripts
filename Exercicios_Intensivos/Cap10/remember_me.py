@@ -28,6 +28,6 @@ def greet_user():
         print(f"Welcome back {username}")
     else:
         username = get_stored_username()
-         print(f"We'll remember your when you come back, {username}")
+        print(f"We'll remember your when you come back, {username}")
    
 greet_user()
